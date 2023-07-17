@@ -1,14 +1,6 @@
+Sistema simples de bilheteria feito para um trabalho da faculdade
 
-3° entrega
+Sistema todo feito em PHP
 
-Vender Ingressos por Cartão de Crédito;
-
-Vender Ingressos por Boleto;
-
-Gerar Voucher;
-
-Relatório Mensal de Vendas;
-
-Relatório Mensal de Vendas por Agenciador.
-
-quarta, 7 dezembro 2016, 09:45
+Possui login (para clientes e agenciadores)
+Possui CRUDs basicos 
