@@ -1,0 +1,128 @@
+body{
+    background-color: #eaeaea;
+}
+.conteudo {
+    width: 100%;
+    border: 1px solid gray;
+}
+.cabecalho, .rodape {
+    padding: 1em;
+    color: black;
+    background-color: #ffffff;
+    clear: left;
+    text-align: center;
+    width: 70%;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sobrePreto{
+    color: white;
+    text-decoration: none;
+}
+.esquerda{
+    float: left;
+    max-width: 200px;
+}
+.direita{
+    float: right;
+    max-width: 200px;
+}
+.centralizado{
+    text-align: center;
+}
+.ajustadoDireita{
+    text-align: right;
+}
+.ajustadoEsquerda{
+    text-align: left;
+}
+.divEstilizada{
+    background-color: white;
+    border-color: gray;
+    border-radius: 8px;
+    width: 450px;
+    margin-left: 40px;
+    padding: 3px 3px 3px 3px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.dropbotao {
+    background-color: #b8b6b6;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-conteudo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-conteudo a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+
+.dropdown:hover .dropbotao {
+    background-color: #f1f1f1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff8302;
+    border-radius: 6px;
+}
+
+li {
+    float: left;
+
+}
+
+li a, .dropbotao {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropotao {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.vendido{
+
+}
+.pendente{
+
+}
