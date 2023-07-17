@@ -35,8 +35,8 @@ if (isset($_SESSION["venc"]))
 $valor_cobrado = $_SESSION["valor"]; // Valor - REGRA: Sem pontos na milhar e tanto faz com "." ou "," ou com 1 ou 2 ou sem casa decimal
 $valor_cobrado = str_replace(",", ".", $valor_cobrado);
 $valor_boleto = number_format($valor_cobrado + $taxa_boleto, 2, ',', '');
-$dadosboleto["nosso_numero"] = "87654";
-$dadosboleto["numero_documento"] = "27.030195.10"; // Num do pedido ou do documento
+$dadosboleto["nosso_numero"] = "11111";
+$dadosboleto["numero_documento"] = "11.111111.11"; // Num do pedido ou do documento
 $dadosboleto["data_vencimento"] = $data_venc; // Data de Vencimento do Boleto - REGRA: Formato DD/MM/AAAA
 $dadosboleto["data_documento"] = date("d/m/Y"); // Data de emissão do Boleto
 $dadosboleto["data_processamento"] = date("d/m/Y"); // Data de processamento do boleto (opcional)
@@ -87,8 +87,8 @@ $dadosboleto["formatacao_nosso_numero"] = "2"; // REGRA: Usado apenas p/ Convên
  */
 // SEUS DADOS
 $dadosboleto["identificacao"] = "BUY&PAY";
-$dadosboleto["cpf_cnpj"] = "123.654.789-00";
-$dadosboleto["endereco"] = "AV Pres Vargas 24-69";
+$dadosboleto["cpf_cnpj"] = "111.111.111-11";
+$dadosboleto["endereco"] = "AV Pres Vargas 111";
 $dadosboleto["cidade_uf"] = "Pres. Epitacio / SP";
 $dadosboleto["cedente"] = "Buy&Pay";
 // NÃO ALTERAR!
