@@ -1,6 +1,4 @@
-Sistema simples de bilheteria feito para um trabalho da faculdade
+Sistema simples de bilheteria, todo feito em PHP da faculdade
 
-Sistema todo feito em PHP
-
-Possui login (para clientes e agenciadores)
-Possui CRUDs basicos 
+Possui login para clientes e agenciadores e CRUDs basicos (clientes, agenciadores e eventos)
+Também foi implementado uma compra simples de ingressos
